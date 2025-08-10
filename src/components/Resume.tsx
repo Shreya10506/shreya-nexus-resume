@@ -16,11 +16,11 @@ const Resume = () => {
                 <div className="flex flex-wrap justify-center gap-6 text-sm">
                   <div className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />
-                    <span>shreyadhamankar3@gmail.com</span>
+                    <span>shreya.dhamankar@email.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />
-                    <span>+91 79720 43747</span>
+                    <span>+91 98765 43210</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4" />
