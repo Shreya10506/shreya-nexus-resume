@@ -26,11 +26,22 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))',
+					dark: 'hsl(var(--primary-dark))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					light: 'hsl(var(--secondary-light))'
+				},
+				resume: {
+					'header-bg': 'hsl(var(--resume-header-bg))',
+					'section-border': 'hsl(var(--resume-section-border))',
+					'highlight': 'hsl(var(--resume-highlight))',
+					'text-primary': 'hsl(var(--resume-text-primary))',
+					'text-secondary': 'hsl(var(--resume-text-secondary))',
+					'icon-color': 'hsl(var(--resume-icon-color))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',

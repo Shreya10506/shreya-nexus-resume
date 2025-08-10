@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,24 +17,37 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Teal primary theme */
+    --primary: 172 100% 30%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 172 75% 85%;
+    --primary-dark: 172 100% 20%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Deep blue secondary */
+    --secondary: 220 91% 40%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 220 60% 95%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 172 50% 95%;
+    --accent-foreground: 172 100% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 172 100% 30%;
+
+    /* Resume specific tokens */
+    --resume-header-bg: 172 100% 30%;
+    --resume-section-border: 172 30% 85%;
+    --resume-highlight: 172 75% 85%;
+    --resume-text-primary: 222.2 84% 4.9%;
+    --resume-text-secondary: 215.4 16.3% 46.9%;
+    --resume-icon-color: 172 100% 25%;
 
     --radius: 0.5rem;
 
