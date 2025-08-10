@@ -75,7 +75,7 @@ const Resume = () => {
                     <h2 className="text-lg font-semibold text-resume-text-primary">Soft Skills</h2>
                   </div>
                   <div className="space-y-2">
-                    {['Leadership', 'Teamwork', 'Creativity', 'Problem Solving', 'Communication'].map((skill) => (
+                    {['Leadership', 'Teamwork', 'Problem Solving', 'Adaptability', 'Communication'].map((skill) => (
                       <div key={skill} className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-primary rounded-full"></div>
                         <span className="text-sm text-resume-text-secondary">{skill}</span>
@@ -132,7 +132,7 @@ const Resume = () => {
                   </div>
                   <p className="text-resume-text-secondary leading-relaxed">
                     IT Engineering undergraduate with hands-on experience in AI, data analysis, and web development. 
-                    Known for blending technical precision with creative problem-solving to design impactful digital solutions. 
+                    Known for combining technical precision with creative problem-solving to deliver impactful digital solutions. 
                     Seeking opportunities to contribute innovative ideas and strong teamwork skills to high-impact projects.
                   </p>
                 </section>
@@ -146,7 +146,7 @@ const Resume = () => {
                   <div className="bg-resume-highlight p-4 rounded-lg">
                     <h3 className="font-semibold text-resume-text-primary">Bachelor of Technology in Information Technology</h3>
                     <p className="text-resume-text-secondary">Pune, India</p>
-                    <p className="text-sm text-resume-text-secondary">2023 – 2027</p>
+                    <p className="text-sm text-resume-text-secondary">2024 – 2028</p>
                   </div>
                 </section>
 
@@ -160,31 +160,52 @@ const Resume = () => {
                     <div className="border-l-4 border-primary pl-4">
                       <h3 className="font-semibold text-resume-text-primary">Sentiment Analysis AI</h3>
                       <ul className="text-sm text-resume-text-secondary mt-2 space-y-1 list-disc list-inside">
-                        <li>Built using Hugging Face Transformers for natural language processing</li>
+                        <li>Developed using Hugging Face Transformers for natural language processing</li>
                         <li>Deployed on GitHub with comprehensive documentation</li>
-                        <li>Designed intuitive frontend interface using HTML/CSS</li>
-                        <li>Collaborated effectively in a team of 3 developers</li>
+                        <li>Designed frontend interface using HTML/CSS</li>
+                        <li>Collaborated in a team of 3 developers</li>
                       </ul>
                     </div>
 
                     <div className="border-l-4 border-secondary pl-4">
-                      <h3 className="font-semibold text-resume-text-primary">Efficient Parking Model</h3>
+                      <h3 className="font-semibold text-resume-text-primary">College Parking Optimization Model</h3>
                       <ul className="text-sm text-resume-text-secondary mt-2 space-y-1 list-disc list-inside">
-                        <li>Developed sustainable parking solution addressing space optimization</li>
-                        <li>Integrated EV charging infrastructure planning</li>
-                        <li>Implemented security features for enhanced user safety</li>
-                        <li>Focused on environmental sustainability and urban efficiency</li>
+                        <li>Designed sustainable solution for efficient parking space usage</li>
+                        <li>Integrated EV charging points for sustainable transportation</li>
+                        <li>Enhanced security measures for user safety</li>
+                        <li>Optimized space utilization through data-driven approach</li>
                       </ul>
                     </div>
+                  </div>
+                </section>
 
-                    <div className="border-l-4 border-primary pl-4">
-                      <h3 className="font-semibold text-resume-text-primary">Internship & Project Collaboration Hub (Datathon 2025)</h3>
-                      <ul className="text-sm text-resume-text-secondary mt-2 space-y-1 list-disc list-inside">
-                        <li>Designed comprehensive system architecture for student collaboration platform</li>
-                        <li>Created intuitive user flow and experience mapping</li>
-                        <li>Focused on connecting students with industry opportunities</li>
-                        <li>Participated in competitive hackathon environment</li>
-                      </ul>
+                {/* Certifications */}
+                <section>
+                  <div className="flex items-center gap-2 mb-4">
+                    <Award className="w-5 h-5 text-resume-icon-color" />
+                    <h2 className="text-xl font-semibold text-resume-text-primary border-b-2 border-resume-section-border pb-1">Certifications</h2>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                      <div>
+                        <h3 className="font-medium text-resume-text-primary">Python Essentials</h3>
+                        <p className="text-sm text-resume-text-secondary">Cisco Networking Academy</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-secondary rounded-full mt-2"></div>
+                      <div>
+                        <h3 className="font-medium text-resume-text-primary">SQL Certification</h3>
+                        <p className="text-sm text-resume-text-secondary">Database Management & Queries</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                      <div>
+                        <h3 className="font-medium text-resume-text-primary">Cisco Cybersecurity Certification</h3>
+                        <p className="text-sm text-resume-text-secondary">Network Security Fundamentals</p>
+                      </div>
                     </div>
                   </div>
                 </section>
@@ -199,22 +220,15 @@ const Resume = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                       <div>
-                        <h3 className="font-medium text-resume-text-primary">Datathon 2025 Participant</h3>
-                        <p className="text-sm text-resume-text-secondary">Competed in prestigious data science competition, showcasing analytical and teamwork skills</p>
+                        <h3 className="font-medium text-resume-text-primary">Leadership Roles in Academic Projects</h3>
+                        <p className="text-sm text-resume-text-secondary">Led teams in various academic projects, demonstrating strong coordination and project management skills</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full mt-2"></div>
                       <div>
-                        <h3 className="font-medium text-resume-text-primary">Leadership Roles</h3>
-                        <p className="text-sm text-resume-text-secondary">Demonstrated leadership capabilities in academic and extracurricular activities</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                      <div>
                         <h3 className="font-medium text-resume-text-primary">Dance Competition Awards</h3>
-                        <p className="text-sm text-resume-text-secondary">Recognition for artistic excellence and performance skills</p>
+                        <p className="text-sm text-resume-text-secondary">Recognition for artistic excellence and performance skills in various cultural competitions</p>
                       </div>
                     </div>
                   </div>
